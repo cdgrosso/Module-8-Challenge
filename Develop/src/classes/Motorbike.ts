@@ -42,7 +42,15 @@ class Motorbike extends Vehicle{
   }
 
   override printDetails(): void {
-    super.
+    super.printDetails();
+    console.log(`VIN: ${this.vin}`);
+    console.log(`Make: ${this.make}`);
+    console.log(`Model: ${this.model}`);
+    console.log(`Year: ${this.year}`);
+    console.log(`Weight: ${this.weight} lbs`);
+    console.log(`Color: ${this.color}`);
+    console.log(`Top Speed: ${this.topSpeed} mph`);
+    console.log(`Wheels: ${this.wheels.length}`);
   }
   // TODO: Declare properties of the Motorbike class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
