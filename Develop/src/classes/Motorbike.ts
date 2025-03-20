@@ -50,7 +50,12 @@ class Motorbike extends Vehicle{
     console.log(`Weight: ${this.weight} lbs`);
     console.log(`Color: ${this.color}`);
     console.log(`Top Speed: ${this.topSpeed} mph`);
-    console.log(`Wheels: ${this.wheels.length}`);
+    console.log(
+      `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
+    ); 
   }
   // TODO: Declare properties of the Motorbike class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
